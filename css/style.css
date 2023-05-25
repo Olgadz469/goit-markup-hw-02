@@ -43,13 +43,16 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--primary-dark-color);
+  color: #2e2f42;
 }
-.header-menu-link:hover,
+.header-menu-link:hover {
+  color: #404bbf;
+}
 .header-menu-link:focus {
   color: #404bbf;
 }
 .header-address {
+  font-style: normal;
 }
 .header-address-menu {
 }
@@ -77,6 +80,7 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
   color: #ffffff;
 }
 .solutions-btn {
@@ -125,6 +129,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
   color: var(--primary-dark-color);
 }
 .products-menu {
@@ -143,6 +148,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
   color: var(--primary-dark-color);
 }
 .team-menu {
